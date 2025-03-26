@@ -1,5 +1,78 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+/*body{
     background: white;
+}. */
+.bgbody{
+    background-image:linear-gradient(  rgb(0, 27, 63), rgba(30, 218, 108, 0.979 ));
+    background-repeat:no-repeat ;
+    background-size: auto;
+    width: auto;
+    height: 850px;
+
+}
+
+
+header{
+    background-image:url(https://www.software.ac.uk/sites/default/files/images/content/header-02-compressor-1140x484.jpg);
+    background-size: contain;
+    text-align: center;
+   }
+header h1{
+    text-shadow:1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: blue;
+   }
+
+div h2{
+    text-shadow:-1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    color: blue;
+   }
+
+   div.Generator{
+    width: 600px;
+    height: auto;
+    text-align: center;
+    margin:center;
+    margin-top: 150px;
+    margin-left:auto ;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: rgba(240, 255, 255, 0.288);
+   }
+   div.excusebox{
+    background-color: rgba(211, 44, 44, 0.651);
+    margin-left:10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    
+}
+a{
+    background-color: rgb(22, 129, 115);
+    border-style: ridge;
+    padding-top: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+}
+a {
+    color:orange;
+}
+ a:hover{
+    color:red;
+
+}
+a:visited{
+    color: orangered;
+
+}
+a:active{
+    color:blueviolet;
+
+}
+p.bottomtext{
+    margin-top: 20px;
+    padding-top: 10px;
 }

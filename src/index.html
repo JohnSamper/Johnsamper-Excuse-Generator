@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" href="./assets/img/4geeks.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hello Rigo with Vanilla.js</title>
+    <title>My Excuse Generator Proj</title>
 
     <!-- Fontawesome is our recomended library for icons -->
     <link
@@ -14,22 +14,35 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body>  
+    <div class="bgbody"> 
     <!-- Write your HTML code here, you can delete everything withing the body tags -->
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./assets/img/rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+      <header>
+         <h1>My Excuse Generator</h1>   
+      </header>
+
+      <div class="Generator">
+        <div>
+          <h2>Hello Welcome :)</h2>
+          <p>read your generated excuse bellow! <p>
+        </div>
+
+        <div class="excusebox ">
+            <div>
+              <h4 id="excuse"><strong>My dog ate my homework</strong></h4>
+            </div>
+        </div>
+        <div>
+          <p class="bottomtext"><a href="blank">Generate New Excuse!</a> </p>
+        </div>
+        <div>
+
+        </div>
+
       </div>
-    </div>
 
     <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
     <script type="module" src="/app.js"></script>
+     </div>
   </body>
 </html>
